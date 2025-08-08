@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8767229999875070171" datatype="html">
+        <source>What&apos;s cooking?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cafe/cafe.component.ts</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8143362250417871025" datatype="html">
+        <source>Enjoy a freshly made pie in our cafe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cafe/cafe.component.ts</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9042667883224287221" datatype="html">
+        <source>image of <x id="INTERPOLATION" equiv-text="{{pie.name}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cafe/cafe.component.ts</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shop/shop.component.ts</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6686568732262946628" datatype="html">
+        <source>Ready <x id="ICU" equiv-text="{pie.timeRemaining, plural,
+              =0 {now}
+              =5 {soon}
+              other {in a while}}" xid="2336269215177490451"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cafe/cafe.component.ts</context>
+          <context context-type="linenumber">18,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2336269215177490451" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {now} =5 {soon} other {in a while}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cafe/cafe.component.ts</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6867646437044332146" datatype="html">
+        <source>Shopping Cart<x id="HORIZONTAL_RULE" ctype="x-hr" equiv-text="&lt;hr /&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4857478369622199138" datatype="html">
+        <source>ITEM #<x id="INTERPOLATION" equiv-text="{{i + 1}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7022070615528435141" datatype="html">
+        <source>Delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8580031500056090712" datatype="html">
+        <source>Sales Tax</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{cart.total | currency}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7398781869480847692" datatype="html">
+        <source>Discount code or gift card</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4776389683576645610" datatype="html">
+        <source>Checkout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6314154275449864797" datatype="html">
+        <source>Shipping <x id="ICU" equiv-text="{cart.items.length, plural,
+                =1 {one}
+                other {multiple {cart.refrigerated, select,
+                true {refrigerated}
+                false {non-refrigerated}}}}" xid="2221152502945358628"/> items</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">62,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2221152502945358628" datatype="html">
+        <source>{VAR_PLURAL, plural, =1 {one} other {multiple {VAR_SELECT, select, true {refrigerated} false {non-refrigerated}}}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cart/cart.component.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="253624833718084522" datatype="html">
+        <source>Bethany&apos;s Pie Shop Logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1147358182484006761" datatype="html">
+        <source>Shop</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.ts</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8226112365442527766" datatype="html">
+        <source>Cafe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.ts</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="383654359613709533" datatype="html">
+        <source>shopping cart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="141253974316326961" datatype="html">
+        <source>Enjoy at home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shop/shop.component.ts</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4655268566209047039" datatype="html">
+        <source>Freshly baked on <x id="INTERPOLATION" equiv-text="{{today | date:&apos;MMMM d&apos;}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shop/shop.component.ts</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8356421868197579888" datatype="html">
+        <source>+ Add to cart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shop/shop.component.ts</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

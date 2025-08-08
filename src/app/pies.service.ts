@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
+import {Injectable, inject, LOCALE_ID} from '@angular/core';
 import { Cart, FreshPie, Product } from './product';
 import { Observable, map } from 'rxjs';
 
@@ -11,9 +11,14 @@ export const PRODUCTS_URL = 'products.json';
 export class PiesService {
   private http = inject(HttpClient);
 
+  private locale = inject(LOCALE_ID);
+
   constructor() { }
   private formURL(): string {
     let url = `${API}${PRODUCTS_URL}`;
+    if (this.locale !== 'en-US') {
+      url = `${API}${this.locale}/${PRODUCTS_URL}`;
+    }
 
     return url
   }
@@ -34,8 +39,8 @@ export class PiesService {
     return this.http.get<Product[]>(this.formURL()).pipe(
       map(products => products.filter(p => inProcess.find(i => i.id === p.id))),
       map(products => inProcess.map(fresh => ({
-        ...fresh, 
-        name: (products.find(p => p.id === fresh.id) as Product).name, 
+        ...fresh,
+        name: (products.find(p => p.id === fresh.id) as Product).name,
         image: (products.find(p => p.id === fresh.id) as Product).image
       })))
     );
@@ -55,7 +60,7 @@ export class PiesService {
         const cart: Cart = { items, subtotal, refrigerated, shipping,
           total: shipping + subtotal
         };
-        
+
         return cart;
       }),
 

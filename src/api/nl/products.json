@@ -1,0 +1,37 @@
+[{
+   "id": 1,
+   "name": "Klassieke Appeltaart",
+   "description": "Onze beroemde zelfgemaakte appeltaart",
+   "image": "assets/img/pie-1.png",
+   "price": 15.95,
+   "refrigeration": false
+ }, {
+   "id": 2,
+   "name": "Klassieke Pompoentaart",
+   "description": "Onze beroemde zelfgemaakte pompoentaart",
+   "image": "assets/img/pie-2.png",
+   "price": 15.95,
+   "refrigeration": true
+ }, {
+   "id": 3,
+   "name": "Chocolade Pecan Taart",
+   "description": "Onze beroemde zelfgemaakte pecantaart met een vleugje chocolade",
+   "image": "assets/img/pie-3.png",
+   "price": 15.95,
+   "refrigeration": true
+ }, {
+   "id": 4,
+   "name": "Originele Cheesecake",
+   "description": "Onze beroemde zelfgemaakte cheesecake",
+   "image": "assets/img/cheesecake-1.png",
+   "price": 19.95,
+   "refrigeration": true
+ }, {
+   "id": 5,
+   "name": "Caramel Popcorn Flan",
+   "description": "Een klassieke flan met een leuke popcorn topping",
+   "image": "assets/img/cheesecake-5.png",
+   "price": 19.95,
+   "refrigeration": true
+ }]
+
